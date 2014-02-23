@@ -1,0 +1,136 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+BSIZ	fprint.cpp	365;"	d	file:
+BYTESWAP_FP	fprint.cpp	18;"	d	file:
+ENDIAN_BIG	endian.h	17;"	d
+ENDIAN_LITTLE	endian.h	14;"	d
+ENDIAN_LITTLE	endian.h	5;"	d
+ENDIAN_LITTLE	endian.h	8;"	d
+HTML_TEST	html.cpp	98;"	d	file:
+LOGZEROBLOCK	fprint.cpp	37;"	d	file:
+NUMKB	fprint.cpp	364;"	d	file:
+SHINGLE_TEST	shingle.cpp	1;"	d	file:
+ZEROBLOCK	fprint.cpp	38;"	d	file:
+_ENDIAN_H_	endian.h	2;"	d
+_FPRINT_H_	fprint.h	3;"	d
+_HTML_H_	html.h	2;"	d
+_MI_B	mi_ctype8.h	31;"	d
+_MI_C	mi_ctype8.h	33;"	d
+_MI_CTYPE8_H_	mi_ctype8.h	3;"	d
+_MI_D	mi_ctype8.h	29;"	d
+_MI_L	mi_ctype8.h	28;"	d
+_MI_P	mi_ctype8.h	32;"	d
+_MI_S	mi_ctype8.h	30;"	d
+_MI_U	mi_ctype8.h	27;"	d
+_MI_X	mi_ctype8.h	34;"	d
+_SHINGLE_H_	shingle.h	2;"	d
+_endian_little	endian.h	/^static short _endian_little = 1;$/;"	v
+_mi_ctype8__	mi_ctype8.cpp	/^const unsigned char *_mi_ctype8__ = _mi_ctype8_iso_latin_1__+128;$/;"	v
+_mi_ctype8_iso_latin_1__	mi_ctype8.cpp	/^static const unsigned char _mi_ctype8_iso_latin_1__[384] = {$/;"	v	file:
+_mi_toascii8__	mi_ctype8.cpp	/^const unsigned char *_mi_toascii8__ = _mi_toascii8_iso_latin_1__+128;$/;"	v
+_mi_toascii8_iso_latin_1__	mi_ctype8.cpp	/^static const unsigned char _mi_toascii8_iso_latin_1__[384] = {$/;"	v	file:
+_mi_tolower8__	mi_ctype8.cpp	/^const unsigned char *_mi_tolower8__ = _mi_tolower8_iso_latin_1__+128;$/;"	v
+_mi_tolower8_iso_latin_1__	mi_ctype8.cpp	/^static const unsigned char _mi_tolower8_iso_latin_1__[384] = {$/;"	v	file:
+_mi_toupper8__	mi_ctype8.cpp	/^const unsigned char *_mi_toupper8__ = _mi_toupper8_iso_latin_1__+128;$/;"	v
+_mi_toupper8_iso_latin_1__	mi_ctype8.cpp	/^static const unsigned char _mi_toupper8_iso_latin_1__[384] = {$/;"	v	file:
+align	fprint.cpp	/^		double align;$/;"	m	union:fprint_data_s::__anon1	file:
+bybyte	fprint.cpp	/^	fprint_t bybyte[8][256];	\/* bybyte[b][i] is i*X^(64+8*b) mod poly[1] *\/$/;"	m	struct:fprint_data_s	file:
+bybyte_out	fprint.cpp	/^	fprint_t bybyte_out[8][256];	\/* bybyte[b][i] is i*X^(64+8*(b+span)) mod poly[1] *\/$/;"	m	struct:fprint_data_s	file:
+bybyte_r	fprint.cpp	/^	fprint_t bybyte_r[8][256];	\/* bybyte[b][i] is i*X^(64+8*b) mod poly[1],$/;"	m	struct:fprint_data_s	file:
+cat	shingle.cpp	/^static unsigned char *cat(unsigned char *a[], int start, int count) {$/;"	f	file:
+current	shingle.cpp	/^	fprint_t *current; \/* array size nminima *\/$/;"	m	struct:shingle_s	file:
+empty	fprint.cpp	/^	fprint_t empty;			\/* fingerprint of the empty string *\/$/;"	m	struct:fprint_data_s	file:
+factors	fprint.cpp	/^const int factors[] = {3, 5, 17, 257, 641, 6637, 6700417L};$/;"	v
+first	shingle.cpp	/^	fprint_uint64_t *first; \/* array size windowsize-1 *\/$/;"	m	struct:shingle_s	file:
+first_strings	shingle.cpp	/^	unsigned char **first_strings; \/* array size windowsize-1 *\/$/;"	m	struct:shingle_s	file:
+fp_ms	shingle.cpp	/^	fprint_data_t fp_ms;$/;"	m	struct:shingle_s	file:
+fp_shingle	shingle.cpp	/^	fprint_data_t *fp_shingle; \/* array size nminima *\/$/;"	m	struct:shingle_s	file:
+fp_ss	shingle.cpp	/^	fprint_data_t fp_ss;$/;"	m	struct:shingle_s	file:
+fp_word	shingle.cpp	/^	fprint_data_t fp_word;$/;"	m	struct:shingle_s	file:
+fprint_close	fprint.cpp	/^void fprint_close (fprint_data_t fp) {$/;"	f
+fprint_concat	fprint.cpp	/^fprint_t fprint_concat (fprint_data_t fp, fprint_t a, fprint_t b, fprint_t blen) {$/;"	f
+fprint_data_s	fprint.cpp	/^struct fprint_data_s {$/;"	s	file:
+fprint_data_t	fprint.h	/^typedef struct fprint_data_s *fprint_data_t;$/;"	t	typeref:struct:fprint_data_s
+fprint_empty	fprint.cpp	/^fprint_t fprint_empty (fprint_data_t fp) {$/;"	f
+fprint_extend	fprint.cpp	/^fprint_t fprint_extend (fprint_data_t fp, fprint_t init, void *data, unsigned len) {$/;"	f
+fprint_extend_bybit	fprint.cpp	/^fprint_t fprint_extend_bybit (fprint_data_t fp, fprint_t init, void *data, unsigned len) {$/;"	f
+fprint_extend_bybyte	fprint.cpp	/^fprint_t fprint_extend_bybyte (fprint_data_t fp, fprint_t init, void *data, unsigned len) {$/;"	f
+fprint_extend_string	fprint.cpp	/^fprint_t fprint_extend_string (fprint_data_t fp, fprint_t f, char *str) {$/;"	f
+fprint_extend_word	fprint.cpp	/^fprint_t fprint_extend_word (fprint_data_t fp, fprint_t init, fprint_uint64_t *data, unsigned len) {$/;"	f
+fprint_init	fprint.cpp	/^void fprint_init(fprint_data_t fp, fprint_t poly, unsigned span) {$/;"	f
+fprint_int64_t	fprint.h	/^typedef __int64 fprint_int64_t;$/;"	t
+fprint_int64_t	fprint.h	/^typedef long long fprint_int64_t;$/;"	t
+fprint_new	fprint.cpp	/^fprint_data_t fprint_new (fprint_t poly, unsigned span) {$/;"	f
+fprint_npolys	fprint.cpp	/^const int fprint_npolys = sizeof (fprint_polys) \/ sizeof (fprint_polys[0]);$/;"	v
+fprint_output	fprint.cpp	/^void fprint_output (void (*outc) (int c, void *v), void *v, fprint_t f) {$/;"	f
+fprint_polys	fprint.cpp	/^const fprint_t fprint_polys[] = {$/;"	v
+fprint_slideword	fprint.cpp	/^fprint_t fprint_slideword (fprint_data_t fp, fprint_t f, fprint_uint64_t a, fprint_uint64_t b) {$/;"	f
+fprint_string	fprint.cpp	/^fprint_t fprint_string (fprint_data_t fp, char *str) {$/;"	f
+fprint_t	fprint.h	/^typedef fprint_uint64_t fprint_t;$/;"	t
+fprint_toascii	fprint.cpp	/^void fprint_toascii (fprint_t f, char *buf) {$/;"	f
+fprint_uint64_t	fprint.h	/^typedef unsigned __int64 fprint_uint64_t;$/;"	t
+fprint_uint64_t	fprint.h	/^typedef unsigned long long fprint_uint64_t;$/;"	t
+free	fprint.cpp	10;"	d	file:
+free	fprint.cpp	14;"	d	file:
+free	shingle.cpp	13;"	d	file:
+free	shingle.cpp	17;"	d	file:
+getch	html.cpp	/^int getch(unsigned char* iv) {$/;"	f
+html_parse	html.cpp	/^void html_parse(int (*getch)(void *), unsigned char *iv,$/;"	f
+i	shingle.cpp	/^	int i;$/;"	m	struct:shingle_s	file:
+i_mod	shingle.cpp	/^	int i_mod;$/;"	m	struct:shingle_s	file:
+initbybyte	fprint.cpp	/^static void initbybyte (fprint_data_t fp, fprint_t bybyte[][256], fprint_t f) {$/;"	f	file:
+main	fprint.cpp	/^int main (int argc, char *argv[]) {$/;"	f
+malloc	fprint.cpp	13;"	d	file:
+malloc	fprint.cpp	9;"	d	file:
+malloc	shingle.cpp	12;"	d	file:
+malloc	shingle.cpp	16;"	d	file:
+mi_ctype8_charset	mi_ctype8.cpp	/^void mi_ctype8_charset (enum mi_ctype8_set set) {$/;"	f
+mi_ctype8_iso_latin_1	mi_ctype8.h	/^	mi_ctype8_iso_latin_1$/;"	e	enum:mi_ctype8_set
+mi_ctype8_set	mi_ctype8.h	/^enum mi_ctype8_set {$/;"	g
+mi_isalnum8	mi_ctype8.h	10;"	d
+mi_isalpha8	mi_ctype8.h	11;"	d
+mi_isascii8	mi_ctype8.h	24;"	d
+mi_iscntrl8	mi_ctype8.h	12;"	d
+mi_isdigit8	mi_ctype8.h	13;"	d
+mi_isgraph8	mi_ctype8.h	14;"	d
+mi_islower8	mi_ctype8.h	15;"	d
+mi_isprint8	mi_ctype8.h	16;"	d
+mi_ispunct8	mi_ctype8.h	17;"	d
+mi_isspace8	mi_ctype8.h	18;"	d
+mi_isupper8	mi_ctype8.h	19;"	d
+mi_isxdigit8	mi_ctype8.h	20;"	d
+mi_toascii8	mi_ctype8.h	25;"	d
+mi_tolower8	mi_ctype8.h	21;"	d
+mi_toupper8	mi_ctype8.h	22;"	d
+min_strings	shingle.cpp	/^	unsigned char **min_strings; \/* array size nminima *\/$/;"	m	struct:shingle_s	file:
+minima	shingle.cpp	/^	fprint_t *minima; \/* array size nminima *\/$/;"	m	struct:shingle_s	file:
+mul	fprint.cpp	/^fprint_t mul(fprint_data_t fp, fprint_t a, fprint_t b) {$/;"	f
+nfactors	fprint.cpp	270;"	d	file:
+nminima	shingle.cpp	/^	unsigned nminima;$/;"	m	struct:shingle_s	file:
+pfp	fprint.cpp	/^void pfp (fprint_t f) {$/;"	f
+poly	fprint.cpp	/^	fprint_t poly[2];		\/* poly[0] = 0; poly[1] = polynomial *\/$/;"	m	struct:fprint_data_s	file:
+pow	fprint.cpp	/^fprint_t pow(fprint_data_t fp, fprint_t power) {$/;"	f
+pow2	fprint.cpp	/^fprint_t pow2(fprint_data_t fp, fprint_t power) {$/;"	f
+powers	fprint.cpp	/^	fprint_t powers[64];		\/* extend[i] is X^(8*2^i) mod poly[1] *\/$/;"	m	struct:fprint_data_s	file:
+processword	shingle.cpp	/^void processword(void *v, unsigned char *w, int len) {$/;"	f
+putword	html.cpp	/^void putword(void *ov, unsigned char *buffer, int len) {$/;"	f
+shingle	shingle.cpp	/^void shingle(char *output, unsigned char *input, unsigned ws, unsigned nn) {$/;"	f
+shingle_destroy	shingle.cpp	/^void shingle_destroy(shingle_t s) {$/;"	f
+shingle_doc	shingle.cpp	/^void shingle_doc(shingle_t s, unsigned char *fp, fprint_t minima[]) {$/;"	f
+shingle_new	shingle.cpp	/^shingle_t shingle_new(unsigned windowsize, unsigned nminima) {$/;"	f
+shingle_s	shingle.cpp	/^struct shingle_s {$/;"	s	file:
+shingle_supershingle	shingle.cpp	/^void shingle_supershingle(shingle_t s, fprint_t minima[],$/;"	f
+shingle_t	shingle.h	/^typedef struct shingle_s *shingle_t;$/;"	t	typeref:struct:shingle_s
+span	fprint.cpp	/^	unsigned span;$/;"	m	struct:fprint_data_s	file:
+stralloc	shingle.cpp	/^static unsigned char *stralloc(unsigned char *s) {$/;"	f	file:
+test_poly	fprint.cpp	/^int test_poly(fprint_t p, int noisy) {$/;"	f
+win_strings	shingle.cpp	/^	unsigned char **win_strings; \/* array size windowsize *\/$/;"	m	struct:shingle_s	file:
+window	shingle.cpp	/^	fprint_uint64_t *window; \/* array size windowsize *\/$/;"	m	struct:shingle_s	file:
+windowsize	shingle.cpp	/^	unsigned windowsize;$/;"	m	struct:shingle_s	file:
+zapstrings	shingle.cpp	/^void zapstrings(shingle_t s) {$/;"	f
+zeroes	fprint.cpp	/^		unsigned char zeroes[ZEROBLOCK];$/;"	m	union:fprint_data_s::__anon1	file:
+zeroes	fprint.cpp	/^	} zeroes;$/;"	m	struct:fprint_data_s	typeref:union:fprint_data_s::__anon1	file:
