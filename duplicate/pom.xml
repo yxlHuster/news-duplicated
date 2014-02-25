@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.hot.cmt</groupId>
+    <artifactId>duplicate</artifactId>
+    <packaging>jar</packaging>
+    <properties>
+        <filter.basePath>..</filter.basePath>
+        <!-- dependencies -->
+        <org.apache.thrift.version>0.8.0</org.apache.thrift.version>
+    </properties>
+        <build>
+        <sourceDirectory>src/java</sourceDirectory>
+        <testSourceDirectory>test/java</testSourceDirectory>
+        <resources>
+            <resource>
+                <directory>src/resources</directory>
+            </resource>
+        </resources>
+        <testResources>
+            <testResource>
+                <directory>test/resources</directory>
+            </testResource>
+        </testResources>
+    </build>
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.thrift</groupId>
+            <artifactId>libthrift</artifactId>
+            <version>${org.apache.thrift.version}</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+    </project>
